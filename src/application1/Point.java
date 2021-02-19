@@ -11,7 +11,7 @@ import static java.lang.Math.pow;
 public class Point {
 	private char nom;
 	private double abscisse;
-	private double ordonnée;
+	private double ordonnee;
 	private static int nbrPoint ;
 	
 	public char getnom(){
@@ -26,25 +26,25 @@ public class Point {
 	public double getabscisse(){
 		return abscisse;
 	}
-	public void setordonnée(double ordonnée){
-		this.ordonnée=ordonnée;
+	public void setordonnee(double ordonnee){
+		this.ordonnee=ordonnee;
 	}
-	public double getordonnée(){
-		return ordonnée;
+	public double getordonnee(){
+		return ordonnee;
 	}
 	public void  getnbrPoint(){
 		System.out.println(nbrPoint);
 	}
 	
-	public Point(char nom,double abscisse,double ordonnée ){
+	public Point(char nom,double abscisse,double ordonnee ){
 		this.nom=nom;
 		this.abscisse=abscisse;
-		this.ordonnée=ordonnée;
+		this.ordonnee=ordonnee;
 		nbrPoint++;
 	}
 	
 	public void affiche(){
-		System.out.println("le point "+nom+" à pour abscisse "+abscisse+" et pour ordonnée "+ordonnée);
+		System.out.println("le point "+nom+" à pour abscisse "+abscisse+" et pour ordonnee "+ordonnee);
 		
 	}
 	//constructeur par defaut
@@ -57,11 +57,11 @@ public class Point {
 	}
 	public void translate(double a,double c){
 		this.abscisse+=a;
-		this.ordonnée+=c;
+		this.ordonnee+=c;
 	}
 	public void calculerDistance(Point x1,Point x2)
 	{
-		System.out.println("la distance entre les points "+x1.nom+" et "+x2.nom+" est "+sqrt(pow(x2.abscisse-x1.abscisse,2)+pow(x2.ordonnée-x1.ordonnée,2)));
+		System.out.println("la distance entre les points "+x1.nom+" et "+x2.nom+" est "+sqrt(pow(x2.abscisse-x1.abscisse,2)+pow(x2.ordonnee-x1.ordonnee,2)));
 		
 	}
 	
