@@ -44,7 +44,7 @@ public class Point {
 	}
 	
 	public void affiche(){
-		System.out.println("le point "+nom+" à pour abscisse "+abscisse+" et pour ordonnee "+ordonnee);
+		System.out.println("le point "+nom+" a pour abscisse "+abscisse+" et pour ordonnee "+ordonnee);
 		
 	}
 	//constructeur par defaut
