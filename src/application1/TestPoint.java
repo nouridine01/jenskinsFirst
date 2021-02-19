@@ -14,6 +14,7 @@ public class TestPoint {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		Point p1 = new Point('a',5,8);
 		Point p2 = new Point('b',7,9);
